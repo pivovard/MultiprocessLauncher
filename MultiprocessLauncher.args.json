@@ -1,0 +1,14 @@
+{
+  "FileVersion": 2,
+  "Id": "dd175043-b14f-436a-ae3a-171aa803506c",
+  "Items": [
+    {
+      "Id": "a54d5b2f-9734-490f-b235-9bb06a0ba4a9",
+      "Command": "-p \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -a \"--new-window --start-maximized www.seznam.cz\" -right 1 -r"
+    },
+    {
+      "Id": "7da51a1a-587b-4c31-9b58-aa5a7d1cd0b0",
+      "Command": "--file \"c:\\Users\\pivov\\_dev\\MultiprocessLauncher\\sites.txt\""
+    }
+  ]
+}

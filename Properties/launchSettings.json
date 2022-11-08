@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WinFormsApp1": {
+      "commandName": "Project",
+      "commandLineArgs": "-p \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -a \"--new-window --start-maximized www.seznam.cz\" -right 1 -r"
+    }
+  }
+}
