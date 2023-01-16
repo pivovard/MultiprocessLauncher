@@ -8,8 +8,6 @@ namespace WinFormsApp1
 {
     internal static class Program
     {
-        private const int SW_SHOWMAXIMIZED = 3;
-
         [DllImport("user32.dll")]
         static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
@@ -21,6 +19,7 @@ namespace WinFormsApp1
 
         private const int SWP_NOSIZE = 0x0001;
         private const int SWP_NOZORDER = 0x0004;
+        private const int SW_SHOWMAXIMIZED = 3;
 
         static void Main(string[] args)
         {
@@ -157,10 +156,14 @@ namespace WinFormsApp1
                     IntPtr.Zero,
                     Screen.AllScreens[screen].WorkingArea.Left,
                     Screen.AllScreens[screen].WorkingArea.Top,
-                    0, 0, SWP_NOSIZE | SWP_NOZORDER);
+                    Screen.AllScreens[screen].WorkingArea.Right,
+                    Screen.AllScreens[screen].WorkingArea.Bottom,
+                    SWP_NOZORDER);
             }
-
-            ShowWindow(process.MainWindowHandle, SW_SHOWMAXIMIZED);
+            else
+            {
+                Console.WriteLine($"Screen {screen} not connected!");
+            }
         }
 
         private static void MoveWindow(uint left = 0, uint up = 0, uint right = 0, uint down = 0)
