@@ -1,2 +1,2 @@
-﻿-p "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -a "--new-window www.seznam.cz" -right 1
--p "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -a "--new-window www.centrum.cz" -right 1
+﻿-p "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -a "--new-window www.seznam.cz" -s 1
+-p "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -a "--new-window www.centrum.cz" -s 0

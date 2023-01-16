@@ -3,8 +3,16 @@
   "Id": "dd175043-b14f-436a-ae3a-171aa803506c",
   "Items": [
     {
+      "Id": "1cd3d930-2aea-4bc4-8a11-83d7194711b0",
+      "Command": "-p \"C:\\Program Files (x86)\\Notepad++\\notepad++.exe\""
+    },
+    {
+      "Id": "1079511b-151a-46c4-84b0-b7f740a99357",
+      "Command": "-p \"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" -a \"--new-window --single-process --start-maximized www.seznam.cz\" -screen 1"
+    },
+    {
       "Id": "a54d5b2f-9734-490f-b235-9bb06a0ba4a9",
-      "Command": "-p \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -a \"--new-window --start-maximized www.seznam.cz\" -right 1 -r"
+      "Command": "-p \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -a \"--new-window --start-maximized www.seznam.cz\" -screen 1"
     },
     {
       "Id": "7da51a1a-587b-4c31-9b58-aa5a7d1cd0b0",
